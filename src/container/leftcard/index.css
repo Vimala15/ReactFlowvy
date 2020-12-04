@@ -1,0 +1,142 @@
+  #leftcard {
+    width: 363px;
+    background-color: #FFF;
+    border: 1px solid #E8E8EF;
+    box-sizing: border-box;
+    padding-top: 85px;
+    padding-left: 20px;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+  }
+  #closecard {
+    position: absolute;
+    margin-left: 340px;
+    background-color: #FFF;
+    border-radius: 0px 5px 5px 0px;
+    border-bottom: 1px solid #E8E8EF;
+    border-right: 1px solid #E8E8EF;
+    border-top: 1px solid #E8E8EF;
+    width: 53px;
+    height: 53px;
+    text-align: center; 
+    z-index: 10;
+  }
+  #closecard img {
+    margin-top: 15px
+  }
+  #header {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #393C44;
+  }
+  #search img {
+    position: absolute; 
+    margin-top: 10px;
+    width: 18px;
+    margin-left: 12px;
+  }
+  #search input {
+    width: 318px;
+    height: 40px;
+    background-color: #FFF;
+    border: 1px solid #E8E8EF;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 8px rgba(34,34,87,0.05);
+    border-radius: 5px;
+    text-indent: 35px;
+    font-family: Roboto;
+    font-size: 16px;
+  }
+
+  #blocklist {
+    height: calc(100% - 220px);
+    overflow-y: auto;
+  }
+
+  .blockelem:first-child {
+    margin-top: 20px
+  }
+  .blockelem {
+    padding-top: 10px;
+    width: 318px;
+    border: 1px solid transparent;
+    transition-property: box-shadow, height;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(.05,.03,.35,1);
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px rgba(22, 33, 74, 0);
+    box-sizing: border-box;
+  }
+  .blockelem:hover {
+    box-shadow: 0px 4px 30px rgba(22, 33, 74, 0.08);
+    border-radius: 5px;
+    background-color: #FFF;
+    cursor: pointer;
+  }
+  .grabme, .blockico {
+    display: inline-block;
+  }
+  .grabme {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: -14px;
+    width: 15px;
+  }
+  .blockin {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 12px;
+  }
+  .blockico {
+    width: 36px;
+    height: 36px;
+    background-color: #F1F4FC;
+    border-radius: 5px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .blockico span {
+    height: 100%;
+    width: 0px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .blockico img {
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+  }
+  .blocktext {
+    display: inline-block;
+    width: 220px;
+    vertical-align: top;
+    margin-left: 12px
+  }
+  .blocktitle {
+    margin: 0px!important;
+    padding: 0px!important;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    color: #393C44;
+  }
+  .blockdesc {
+    margin-top: 5px;
+    font-family: Roboto;
+    color: #808292;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .blockyname {
+    font-family: Roboto;
+    font-weight: 500;
+    color: #253134;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+    margin-top: 16px;
+    font-size: 16px;
+}
