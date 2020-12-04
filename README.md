@@ -5,3 +5,5 @@ It is linked to the react-flowy package in the parent directory for development 
 You can run `npm install` and then `npm start` to test your package.
 
 ![Alt text](https://github.com/Vimala15/ReactFlowvy/blob/master/screenshot.png "See here")
+
+![Alt text](https://github.com/Vimala15/ReactFlowvy/blob/master/screenshot2.png "See here")
